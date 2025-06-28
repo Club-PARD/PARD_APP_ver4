@@ -41,3 +41,18 @@ class MainActivity: FlutterActivity() { }
 ```
 
 📱 **feat:** 기본 `MainActivity.kt` 클래스 정의 (`FlutterActivity` 상속)
+
+Here's an additional section you can add to your `README.md` to document the QR 코드 기능 변경:
+
+---
+
+### 4. QR 코드 기능 라이브러리 교체
+
+```diff
+- qr_code_scanner
++ mobile_scanner
+```
+
+📷 **refactor:** QR 코드 스캔 기능을 위해 기존 `qr_code_scanner` 패키지 대신 `mobile_scanner`로 교체
+
+---
