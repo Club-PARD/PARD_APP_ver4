@@ -22,6 +22,7 @@ class QRController extends GetxController {
   bool _isScanning = false;
   bool _dialogShown = false;
 
+  // TODO: url 확인
   final List<String> validQrCodes = [
     "https://me-qr.com/uoN4lOs1",
     "https://m.site.naver.com/1tv11",
@@ -212,6 +213,7 @@ class QRController extends GetxController {
     );
   }
 
+  // TODO: url 확인
   Future<String> getTodaySchedule(String qrCode) async {
     switch (qrCode) {
       case "https://m.site.naver.com/1tv2A":
