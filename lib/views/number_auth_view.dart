@@ -333,6 +333,7 @@ class NumberAuthView extends StatelessWidget {
                   SizedBox(height: 16.h),
                   GestureDetector(
                     onTap: () {
+                      // TODO: url 확인
                       launchUrl(
                         Uri.parse(
                           'https://docs.google.com/forms/d/e/1FAIpQLSdXG9ZFrKHz2n5K42r249IYneuJ4urArmYtxs6qv_13IwtO4g/viewform?usp=sf_link',

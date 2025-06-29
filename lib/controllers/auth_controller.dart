@@ -165,6 +165,7 @@ class AuthController extends GetxController {
         ],
         webAuthenticationOptions: WebAuthenticationOptions(
           clientId: "com.pard.service",
+          // TODO: url 확인
           redirectUri: Uri.parse(
             "https://evergreen-glory-sagittarius.glitch.me/callbacks/sign_in_with_apple",
           ),

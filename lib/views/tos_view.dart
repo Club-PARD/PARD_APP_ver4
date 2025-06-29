@@ -52,6 +52,7 @@ class TosView extends StatelessWidget {
                   ),
                 ),
                 SizedBox(height: 16.h),
+                // TODO: url 확인
                 const TosAgreement(
                   '개인정보 수집 및 이용 동의 (필수)',
                   'https://we-pard.notion.site/Pard-APP-fc37c472e47941d3958765587b57e21f?pvs=4',
