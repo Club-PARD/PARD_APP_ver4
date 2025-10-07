@@ -187,3 +187,4 @@ android/keystore/
 android/local.properties
 *.jks
 *.keystore
+*.pem
