@@ -180,3 +180,11 @@ app.*.symbols
 !/dev/ci/**/Gemfile.lock
 
 .metadata
+
+
+android/key.properties
+android/keystore/
+android/local.properties
+*.jks
+*.keystore
+*.pem
